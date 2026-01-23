@@ -1,10 +1,24 @@
 const projects = [
+    { 
+    title: "DanZens",
+    image: "Images/DanZens.png",
+    tags: ["Unity", "C#", "Python"], 
+    desc: "DanZens is a toolkit for real-time motion analysis in dance using wearable sensors. By combining motion capture, annotation, and visualization, it enables precise, cost-effective comparisons between two performers. The system was developed as part of an IEEE PerCom 2025 demo paper and was presented live at the conference, demonstrating its real-world applicability in both research and interactive settings.", 
+    github_link: "https://github.com/yanellymego/DanZens"
+  },
   { 
     title: "Willow and Finch",
     image: "Images/willow-and-finch.png",
     tags: ["Swift"], 
     desc: "Willow and Finch is a prototype IOS application that models a reading and library application like Barnes & Noble or Project Gutenberg.", 
     github_link: "https://github.com/tifle/WillowAndFinch"
+  },
+  {
+    title: "Movement Similarity Analysis",
+    image: "https://opengraph.githubassets.com/1/yanellymego/Movement-Similarity-Analysis",
+    tags: ["Python"], 
+    desc: "This repository contains the code used to preprocess and analyze wearable motion capture data for a research study on movement similarity and motor expertise. The project focuses on comparing whole-body movements using computational techniques that account for both spatial structure and temporal alignment. The repository documents the technical pipeline used to normalize motion data and generate exploratory visualizations.",
+    github_link: "https://github.com/yanellymego/Movement-Similarity-Analysis"
   },
   { 
     title: "Bookstore Database", 
