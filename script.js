@@ -43,7 +43,7 @@ const projects = [
   },
   { 
     title: "LSTM Text Classification Model—<em>The Yellow Wallpaper</em>", 
-    image: "",
+    image: "Images/yellowwallpaper-cover.png",
     tags: ["Python"],
     desc: "This project implements a data-driven LSTM model in Python using TensorFlow to perform predictive language modeling. It includes a scalable text preprocessing pipeline that cleans, tokenizes, and sequences over 10,000 words, with model training optimized through batch processing, validation sets, and multiple epochs.",
     // github_link: ""

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/favicon.png">
     <script src="script.js" defer></script>
     <title>Yanelly's Portfolio</title>
 </head>
@@ -24,11 +25,22 @@
     </header>
 
     <main>
-        <section id="bio">
+        <!-- <section id="bio">
             <p>Hi! I'm Yanelly Mego, a Software Engineering graduate with a strong foundation in designing and building reliable software systems. Through projects, coursework, and undergraduate research, I’ve worked with machine learning techniques, data-driven applications, and full-stack development. This site showcases selected projects and research that reflect my interests in software engineering and applied ML.</p>
+        </section> -->
+        <section id="bio" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I’m <span class="accent">Yanelly Mego</span>,</h1>
+            <p>
+            A Software Engineering graduate with a strong foundation in designing and building reliable software systems. 
+            Through projects, coursework, and undergraduate research, I’ve worked with machine learning techniques, 
+            data-driven applications, and full-stack development. This portfolio showcases select projects and research that reflect my interests in software engineering and applied ML.
+            </p>
+        </div>
         </section>
+
         <section id="skills">
-            <h1>Skills</h1>
+            <h1><span class="accent2">Skills</span></h1>
             <h2>Programming Languages</h2>
                 <ul>
                     <li><img src="Images/python.png" alt="Python icon"> Python</li>
@@ -56,7 +68,7 @@
                 </ul>
         </section>
         <section id="projects">
-            <h1>Projects</h1>
+            <h1><span class="accent2">Projects</span></h1>
             
         <div class="filters">
             <label for="languageFilter" class="visually-hidden">
